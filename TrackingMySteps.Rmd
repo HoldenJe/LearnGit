@@ -15,3 +15,27 @@ Keeping track of my steps:
 7. Created this documented, made a commit.
 8. Added a function, made a commit
 
+New contributors
+1. A different user can now fork (top right of github)
+2. While there, create a new branch (dev_yourname)
+2. Return to RStudio
+3. Create New Project from GitHub repository
+4. add https://github.com/YOURNAME/LearnGit as the url that you want to use to start the project
+5. Check the directory where you want to save it - then do it!
+6. When the project opens all the files should be cloned to your local project file
+7. Make sure you are on the dev_yourname branch
+8. Do some stuff, make some commits
+9. Then do a push to your github
+10. Go to github and do a pull request
+11. I'll get an email telling me that you want to add something
+
+Merging contributions
+1. On Github - merge to main
+2. Do a local pull request to update local main
+3. Switch to dev_* branch and "update from main"
+
+Some thoughts
+1. I think contributors should fork from a development branch
+2. Then, "production" files can be pushed to main
+3. This keeps the main branch as uncluttered as possible
+4. Maybe... 
