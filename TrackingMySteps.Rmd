@@ -1,0 +1,16 @@
+---
+title: "My Steps"
+author: "Jeremy Holden"
+date: "23/01/2021"
+output: html_document
+---
+
+Keeping track of my steps:
+1. I made a repo in Github
+2. Created a readme and made a commit
+3. Create new project in RStudio
+4. From a Git repository
+5. Copied creditials.
+6. Created a new branch called dev_jer for local work
+7. Created this documented, made a commit.
+
