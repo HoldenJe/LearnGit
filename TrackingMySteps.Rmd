@@ -10,7 +10,8 @@ Keeping track of my steps:
 2. Created a readme and made a commit
 3. Create new project in RStudio
 4. From a Git repository
-5. Copied creditials.
+5. Copied credentials.
 6. Created a new branch called dev_jer for local work
 7. Created this documented, made a commit.
+8. Added a function, made a commit
 
