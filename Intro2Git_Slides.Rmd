@@ -49,3 +49,32 @@ git commit -m "Tell Git what you did"
 ```
 * Takes a snapshot of the files and records an descriptive message
 
+## Github
+```
+git pull
+```
+* looks for changes in a remote repository
+
+```
+git push
+```
+* asks to incorporate your local changes to a remote repository
+
+
+## RStudio provides GUI support
+* RStudio provides a graphical user interface to help with the easy commands
+* Also provides a terminal when you feel like you need to get into/out of trouble
+<br>
+<br>
+*See also: Git GUI, Github Desktop, numerous others
+
+## Two Examples
+1. Start using Git in an existing directory
+2. Create a project linked to Github
+
+<p align="center">
+  <img src="Error Message.png" alt="drawing" width="100%"/>
+</p>
+
+
+
