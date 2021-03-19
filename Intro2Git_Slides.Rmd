@@ -5,18 +5,6 @@ date: "14/03/2021"
 output: ioslides_presentation
 ---
 
-## WARNING
-**I'm not an expert.**  
-
-Today is a quick overview of some of the use cases.
-<p align="center">
-  <img src="danger.png" alt="drawing" width="30%"/>
-</p>
-
-I've reached out to MSU/QFC to deliver a full training course on how to use Git and Github.
-Expectation is that an online course will be available by June or July. *Stay tuned.*
-
-
 ## Git vs Github
 
 Git | Github
