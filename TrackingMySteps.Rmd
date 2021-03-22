@@ -52,3 +52,10 @@ To update your local directory; which is a good idea to do *BEFORE* you start ma
 git pull upstream main
 ```
 
+## Some useful pages 
+From Github's documentation:
+https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork
+https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork
+
+From FreeCodeCamp:
+https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/
