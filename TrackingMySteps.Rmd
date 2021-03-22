@@ -43,7 +43,7 @@ output: html_document
 ## Adding an upstream repo for forks
 When you fork a repo you'll only get a snapshot of the repo at the time you clone it. Additional changes, but the owner or contributors will not automatically update in your repo. To do this you need to add an `upstream` repo to `fetch` new changes that have been made since you last contributed. To add this repo as the upstream repo for your local `LearnGit` project in RStudio switch to the **terminal** tab and run the following commands:
 ```{}
-git remote add upstream git://github.com/HoldenJe/LearnGit
+git remote add upstream https://github.com/HoldenJe/LearnGit
 git fetch upstream
 ```
 
