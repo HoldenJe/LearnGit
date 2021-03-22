@@ -5,7 +5,7 @@ date: "23/01/2021"
 output: html_document
 ---
 <!--Z Slagle added two spaces (new line) to properly format and for testing pushing etc. This is cool!-->
-Keeping track of my steps:  
+## Keeping track of my steps:  
 1. I made a repo in Github  
 2. Created a readme and made a commit  
 3. Create new project in RStudio  
@@ -15,7 +15,7 @@ Keeping track of my steps:
 7. Created this documented, made a commit.  
 8. Added a function, made a commit  
 
-New contributors  
+## New contributors  
 1. A different user can now fork (top right of github)  
 2. While there, create a new branch (dev_yourname)  
 2. Return to RStudio  
@@ -29,13 +29,26 @@ New contributors
 10. Go to github and do a pull request  
 11. I'll get an email telling me that you want to add something  
 
-Merging contributions  
+## Merging contributions  
 1. On Github - merge to main  
 2. Do a local pull request to update local main  
 3. Switch to dev_* branch and "update from main"  
 
-Some thoughts  
+## Some thoughts  
 1. I think contributors should fork from a development branch  
 2. Then, "production" files can be pushed to main  
 3. This keeps the main branch as uncluttered as possible  
 4. Maybe...   
+
+## Adding an upstream repo for forks
+When you fork a repo you'll only get a snapshot of the repo at the time you clone it. Additional changes, but the owner or contributors will not automatically update in your repo. To do this you need to add an `upstream` repo to `fetch` new changes that have been made since you last contributed. To add this repo as the upstream repo for your local `LearnGit` project in RStudio switch to the **terminal** tab and run the following commands:
+```{}
+git remote add upstream git://github.com/HoldenJe/LearnGit
+git fetch upstream
+```
+
+To update your local directory; which is a good idea to do *BEFORE* you start making new changes so that you can avoid any nasty `merge` conflicts; you simply do a `Pull` request using either the RStudio GUI or by running:
+```{}
+git pull upstream main
+```
+
