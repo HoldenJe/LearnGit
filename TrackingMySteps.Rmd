@@ -44,18 +44,19 @@ output: html_document
 When you fork a repo you'll only get a snapshot of the repo at the time you clone it. Additional changes, but the owner or contributors will not automatically update in your repo. To do this you need to add an `upstream` repo to `fetch` new changes that have been made since you last contributed. To add this repo as the upstream repo for your local `LearnGit` project in RStudio switch to the **terminal** tab and run the following commands:
 ```{}
 git remote add upstream https://github.com/HoldenJe/LearnGit
-git fetch upstream
 ```
 
-To update your local directory; which is a good idea to do *BEFORE* you start making new changes so that you can avoid any nasty `merge` conflicts; you simply do a `Pull` request using either the RStudio GUI or by running:
+To update your local directory; which is a good idea to do *BEFORE* you start making new changes so that you can avoid any nasty `merge` conflicts; you simply do a `fetch` & `merge` by running:
 ```{}
-git pull upstream main
+git fetch upstream
+git merge upstream/main
 ```
 
 ## Some useful pages 
-From Github's documentation:
+From Github's documentation:  
 https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/configuring-a-remote-for-a-fork
 https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork
 
-From FreeCodeCamp:
+From FreeCodeCamp:  
 https://www.freecodecamp.org/news/git-pull-force-how-to-overwrite-local-changes-with-git/
+
