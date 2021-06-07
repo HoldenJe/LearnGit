@@ -3,7 +3,7 @@
 SayHi <- function(yourname){
   # A function that takes a name
   # Returns "Hello Yourname"
-    print(paste("Hello ", yourname))
+    print(paste("Hello ", yourname, "!", sep = ""))
   }
 
-SayHi("Rachel")
+
