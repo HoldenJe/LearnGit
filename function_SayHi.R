@@ -5,3 +5,5 @@ SayHi <- function(yourname){
   # Returns "Hello Yourname"
     print(paste("Hello ", yourname))
   }
+
+SayHi("Rachel")
