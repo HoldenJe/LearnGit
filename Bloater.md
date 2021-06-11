@@ -7,4 +7,4 @@ Potential long-term benefits of restoring Bloater include restoring historical f
 In 2017, there were 169,000 fall yearling (age-1) Bloater stocked by MNRF at two stocking locations. 12,000 were stocked near Main Duck Island (in 'the trench') to support ongoing research activities along with an additional 119 older fish (see Section 9.2). 
 
 
-Several of the assesment programs have the poential to capture and assess bloater survival and population levels. Bloater can be easily be misidentified as cephalopods so extra care is taken to collect morphometrics and DNA tissue to verify suspected catches of Bloater.
+Several of the assesment programs have the poential to capture and assess bloater survival and population levels. Bloater can be easily be misidentified as cisco so extra care is taken to collect morphometrics and DNA tissue to verify suspected catches of Bloater.
