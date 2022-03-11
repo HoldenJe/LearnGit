@@ -8,3 +8,8 @@ In 2017, there were 169,000 fall yearling (age-1) Bloater stocked by MNRF at two
 
 
 Several of the assesment programs have the poential to capture and assess bloater survival and population levels. Bloater can be easily be misidentified as cisco so extra care is taken to collect morphometrics and DNA tissue to verify suspected catches of Bloater.
+
+
+more text goes here as per issue #19.
+
+This is the end. 
