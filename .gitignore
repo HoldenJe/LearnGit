@@ -2,5 +2,11 @@
 .Rhistory
 .RData
 .Ruserdata
+<<<<<<< HEAD
+*.html
+README.md
+.gitignore
+=======
 
 *.html
+>>>>>>> 20069c7c55c36ce4b4f15c87882164bb3aee702d
