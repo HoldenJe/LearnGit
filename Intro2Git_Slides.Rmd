@@ -1,68 +1,24 @@
 ---
 title: "Intro to Git and Github"
+subtitle: "3.14 ways to use git"
 author: "Jeremy Holden"
-date: "14/03/2021"
+date: "14/03/2022"
 output: ioslides_presentation
 ---
 
 ## Git vs Github
-
-Git | Github
-----|--------
-Version control | Online web service
-"unlimited undo" | Share and collaborate code and text
-Works locally | Online repositories (including private)
-Track changes | Track changes but in a nice web format
-
-
-Most work flows utilize features of both.
-
-## Common Git Work flow
+```{r, echo=FALSE, out.width="25%"}
+knitr::include_graphics("Images/git_logo.png")
 ```
-git init
-```
-* This opens a hidden database to track your files.
-<br>
-<br>
+- git works locally to track changes
 
-``` 
-git add my_awesome_file.txt
+```{r, echo=FALSE, out.width="25%"}
+knitr::include_graphics("Images/github-logo.png")
 ```
-* Tells Git to track changes to `my_awesome_file.txt`
-<br>
-<br>
+- github focuses on collaboration tools
 
-```
-git commit -m "Tell Git what you did"
-```
-* Takes a snapshot of the files and records an descriptive message
-
-## Github
-```
-git pull
-```
-* looks for changes in a remote repository
-
-```
-git push
-```
-* asks to incorporate your local changes to a remote repository
-
-
-## RStudio provides GUI support
-* RStudio provides a graphical user interface to help with the easy commands
-* Also provides a terminal when you feel like you need to get into/out of trouble
-<br>
-<br>
-*See also: Git GUI, Github Desktop, numerous others
-
-## Two Examples
-1. Start using Git in an existing directory
-2. Create a project linked to Github
-
-<p align="center">
-  <img src="Error Message.png" alt="drawing" width="100%"/>
-</p>
+---
+## Primary Commands
 
 
 
