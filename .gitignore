@@ -2,4 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-LearnGit.Rproj
+
+*.html
