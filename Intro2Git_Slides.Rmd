@@ -3,10 +3,10 @@ title: "Intro to Git and Github"
 subtitle: "3.14 ways to use git"
 author: "Jeremy Holden"
 date: "14/03/2022"
-output: ioslides_presentation
+output: slidy_presentation
 ---
 
-## Git vs Github
+# Git vs Github
 ```{r, echo=FALSE, out.width="25%"}
 knitr::include_graphics("Images/git_logo.png")
 ```
@@ -17,8 +17,48 @@ knitr::include_graphics("Images/github-logo.png")
 ```
 - github focuses on collaboration tools
 
----
-## Primary Commands
+
+# Primary Commands
+
+- commit: saves a snapshot of your work
+- pull: looks for changes between local and remote copies. Requests changes to remote.
+
+### Other important terms
+- branch
+- merge
+- status
+- log
+
+# RStudio Integration
+
+```{r, echo=FALSE, out.width="100%"}
+knitr::include_graphics("Images/Rstudio_screen.png")
+```
+
+# Feature 1 - file history
+
+Does this look familiar?
+
+```{r echo=FALSE, out.width="75%"}
+knitr::include_graphics("Images/multiple_versions.png")
+```
+
+- git allows you to track changes (and who changed them, and WHY!) for the life of a project in a single file
+
+# Feature 2 - assign homework
+- Use the *Issues* feature in Github to assign homework, to yourself or others and track progress
+
+```{r echo=FALSE, out.width="75%"}
+knitr::include_graphics("Images/github_issues.png")
+```
+
+# Feature 3 - collaborate of files
+Using commits, pull requests and merges to work on files between collaborators.
+
+```{r echo=FALSE, out.width="75%"}
+knitr::include_graphics("Images/github_forkedrepo.png")
+```
 
 
+# Danger zone - Live Demo!
 
